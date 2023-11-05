@@ -1,0 +1,137 @@
+body {
+  font-family: "Playfair Display", serif;
+  background: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.15rem;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2.2rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.personal {
+  display: flex;
+  width: 1200px;
+}
+.photo-zone {
+  width: 25%;
+}
+.cv-photo {
+  width: 200px;
+  margin: 2rem;
+  border-radius: 50%;
+}
+.personal-date {
+  width: 45%;
+  margin-top: 0rem;
+}
+
+#name {
+  font-size: 5rem;
+  font-weight: 400;
+}
+#usname {
+  font-size: 5rem;
+  font-style: normal;
+}
+.profession {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.contact-zone {
+  width: 35%;
+  margin: 1.5rem;
+}
+.contact-links {
+  color: #000000;
+  font-size: 1.2rem;
+  margin: 1rem;
+  text-decoration: none;
+}
+.bold {
+  font-weight: 700;
+  line-height: 4rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0 auto;
+}
+main {
+  margin-top: 47px;
+  margin-left: 2rem;
+  margin-right: 3rem;
+}
+main ul {
+  padding-left: 0.5rem;
+}
+main ul li {
+  list-style: circle;
+  list-style-position: inside;
+}
+main ul li h3 {
+  list-style-position: inside;
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  text-transform: uppercase;
+}
+.content {
+  font-size: 1.2rem;
+  text-align: justify;
+  border-left: 2px solid;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.content h4 {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+}
+#date {
+  color: grey;
+}
+.rodo {
+  margin-right: 1rem;
+}
+asaide {
+  width: 370px;
+  background: #ffffff;
+  margin-top: 47px;
+  margin-right: 2rem;
+}
+
+.header-secondary {
+  color: #000000;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid;
+}
+.list-secondary {
+  color: #e7982f;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  margin-left: 0px;
+  margin-bottom: 3.5rem;
+  padding-left: 0px;
+  list-style: circle;
+  list-style-position: inside;
+}
+.list-secondary-item {
+  color: #000000;
+}
+.contact-bolck {
+  margin-top: 51px;
+  margin-left: 40px;
+}
+.tech-skils-bolck {
+  margin-left: 40px;
+}
