@@ -3,19 +3,20 @@ body {
   background: #ffffff;
   font-weight: 500;
   letter-spacing: 0.15rem;
-  width: 1200px;
+  width: 1150px;
   justify-content: center;
   align-items: center;
+  font-size: 12px;
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
 .personal {
   display: flex;
-  width: 1200px;
+  width: 1150px;
 }
 .photo-zone {
   width: 25%;
@@ -31,30 +32,30 @@ h2 {
 }
 
 #name {
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: 400;
 }
 #usname {
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-style: normal;
 }
 .profession {
-  font-weight: 400;
-  font-size: 1.7rem;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 .contact-zone {
   width: 35%;
-  margin: 1.5rem;
+  margin: 1.1rem;
 }
 .contact-links {
   color: #000000;
-  font-size: 1.2rem;
-  margin: 1rem;
+  font-size: 1rem;
+  margin: 0.5rem;
   text-decoration: none;
 }
 .bold {
   font-weight: 700;
-  line-height: 4rem;
+  line-height: 3rem;
 }
 .wrapper {
   display: flex;
@@ -63,7 +64,7 @@ h2 {
   margin: 0 auto;
 }
 main {
-  margin-top: 47px;
+  margin-top: 10px;
   margin-left: 2rem;
   margin-right: 3rem;
 }
@@ -83,9 +84,9 @@ main ul li h3 {
   text-transform: uppercase;
 }
 .content {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: justify;
-  border-left: 2px solid;
+  border-left: 1px solid;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
@@ -101,37 +102,41 @@ main ul li h3 {
   color: grey;
 }
 .rodo {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
+  text-align: justify;
 }
 asaide {
-  width: 370px;
+  width: 300px;
   background: #ffffff;
-  margin-top: 47px;
-  margin-right: 2rem;
+  margin-top: 10px;
+  margin-right: 1.5rem;
 }
 
 .header-secondary {
   color: #000000;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid;
+  font-weight: 700;
+  padding-bottom: 0rem;
+  border-bottom: 1px solid;
 }
 .list-secondary {
   color: #e7982f;
-  font-size: 1.2rem;
-  line-height: 3rem;
+  font-size: 1rem;
+  line-height: 1.6rem;
   margin-left: 0px;
-  margin-bottom: 3.5rem;
+  margin-bottom: 0rem;
   padding-left: 0px;
   list-style: circle;
   list-style-position: inside;
 }
 .list-secondary-item {
   color: #000000;
+  font-weight: 700;
+  font-style: normal;
 }
 .contact-bolck {
   margin-top: 51px;
   margin-left: 40px;
 }
 .tech-skils-bolck {
-  margin-left: 40px;
+  margin-left: 20px;
 }
